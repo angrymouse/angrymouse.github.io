@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+*{
+  font-family: 'Dosis', sans-serif;
+}
+#app-mount{
+  position: relative;
+  width:100%;
+
+  display: inline-block;
+  background-color: #2C2F33;
+}
+html,body{
+  margin:0;
+  padding:0;
+  top:0;
+  left:0;
+  position: relative;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+}
+#mainblock{
+  position: relative;
+  display: inline-block;
+  left:50%;
+  top:20px;
+  max-width:80%;
+  padding: 10px;
+  background-color: #23272A;
+  border-radius: 5px;
+  transform: translate(-50%);
+  min-height: 100vh;
+}
+.centralize{
+  display: inline-block;
+  position: relative;
+  left:50%;
+  transform: translate(-50%);
+}
+.server-card{
+  position: relative;
+display: inline-block;
+  border-radius: 5px;
+  width: 500px;
+  height: 220px;
+  background-color:#2C2F33
+}
+.server-main{
+  top:58px;
+  height:162px;
+  width:100%;
+  display:inline-block;
+  position: absolute;
+  background-color: #2f3336;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.server-tags{
+  right:20px;
+  width:250px;
+position: absolute;
+display: block;
+height: 70px;
+}
+.server-tag{
+  background-color: #7289DA;
+  text-transform: uppercase;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 2px;
+padding-bottom: 2px;
+    font-size: .9rem;
+    display: inline-block;
+    margin-bottom: 3px;
+font-weight: 400;
+    color: #e6e6e6;
+    margin-right: 3px;
+    border-radius: 2px;
+}
+.server-name{
+  color:#fff;
+  position: absolute;
+  display: inline-block;
+  left:110px;
+  max-width: 100px;
+  width: 100px;
+font-size: 1.1em;
+}
+.server-icon{
+  position: absolute;
+  display: inline-block;
+  border-radius: 10px;
+  top:-50px;
+  background-color: #2f3336;
+  border-width: 3px;
+  border-style: solid;
+  border-color:#2f3336;
+  left:20px;
+  width:80px;
+  height:80px;
+}
+.i-online{
+  border-radius: 50%;
+  background-color: #3aa77a;
+  border:none;
+  width: 10px;
+  height:10px;
+  display: inline-block;
+  position: relative;
+}
+.server-online{
+  top:40px;
+  left:30px;
+  position: absolute;
+  display: inline-block;
+  color:#99AAB5;
+}
+.i-offline{
+  border-radius: 50%;
+  background-color: #747f8d;
+  border:none;
+  width: 10px;
+  height:10px;
+  display: inline-block;
+  position: relative;
+}
+.i-likes{
+
+  background-image: url("./thumbup.svg");
+  background-size: 100%;
+  border:none;
+  width: 12px;
+  height:12px;
+  display: inline-block;
+  position: relative;
+}
+.i-reviews{
+
+  background-image: url("./review.svg");
+  background-size: 100%;
+  border:none;
+  width: 12px;
+  height:12px;
+  display: inline-block;
+  position: relative;
+}
+.server-join{
+  right:20px;
+  bottom:60px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #23272A;
+  border-radius: 10px;
+  position: absolute;
+  display: inline-block;
+  width:50px;
+  text-transform: uppercase;
+  color:#fff;
+  height:17px;
+}
+.server-members{
+  top:60px;
+  left:30px;
+  position: absolute;
+  display: inline-block;
+  color:#99AAB5;
+}
+.server-likes{
+  top:80px;
+  left:28px;
+  position: absolute;
+  display: inline-block;
+  color:#99AAB5;
+}
+.server-reviews{
+  top:100px;
+  left:28px;
+  position: absolute;
+  display: inline-block;
+  color:#99AAB5;
+}
+.server-flag{
+  position: absolute;
+  right:20px;
+  bottom: 20px;
+  display: inline-block;
+  width:50px;
+  height:35px;
+
+}
+.wavePath-22lfEN {
+  -webkit-animation: waveDividerAnimation-2kPl3C 20s linear infinite alternate;
+  animation: waveDividerAnimation-2kPl3C 10s linear infinite alternate;
+
+}
+.server-description{
+  top: 52px;
+  color:#99AAB5;
+  height:85px;
+  overflow-y: scroll;
+  width: 295px;
+  left:130px;
+  display: inline-block;
+  position: absolute;
+}
+* ::-webkit-scrollbar {
+    width: 7px
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #23272A;
+    background-clip: padding-box;
+
+
+    border-radius: 7px
+}
+*::-webkit-scrollbar-track-piece {
+
+    background-clip: padding-box;
+
+    border-radius: 7px
+}
+.card-wave{
+  position: absolute;
+  display: inline-block;
+  top:30px;
+  width: 100%;
+}
+@-webkit-keyframes waveDividerAnimation-2kPl3C {
+  0% {
+    d: path("M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z");
+  }
+  50% {
+    d: path("M655.558582,28.4898877 C500.191373,61.6062216 422.833785,83.5422763 266.940085,49.8995879 C112.480383,16.5663637 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,49.8995879 C1580.91676,-34.8808285 1438.10804,73.6768193 1148.0266,38.0019829 C857.945166,2.32714659 810.925791,-4.62644617 655.558582,28.4898877 Z");
+  }
+  to {
+    d: path("M842.322034,38.0019829 C686.954825,71.1183168 623.386282,53.08497 467.492582,19.4422816 C313.032879,-13.8909426 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,76.8685643 C1512.23604,-35.3595639 1568.70222,67.4289432 1278.62078,31.7541069 C988.539347,-3.92072949 997.689243,4.88564905 842.322034,38.0019829 Z");
+  }
+}
+@keyframes waveDividerAnimation-2kPl3C {
+  0% {
+    d: path("M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z");
+  }
+  50% {
+    d: path("M655.558582,28.4898877 C500.191373,61.6062216 422.833785,83.5422763 266.940085,49.8995879 C112.480383,16.5663637 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,49.8995879 C1580.91676,-34.8808285 1438.10804,73.6768193 1148.0266,38.0019829 C857.945166,2.32714659 810.925791,-4.62644617 655.558582,28.4898877 Z");
+  }
+  to {
+    d: path("M842.322034,38.0019829 C686.954825,71.1183168 623.386282,53.08497 467.492582,19.4422816 C313.032879,-13.8909426 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,76.8685643 C1512.23604,-35.3595639 1568.70222,67.4289432 1278.62078,31.7541069 C988.539347,-3.92072949 997.689243,4.88564905 842.322034,38.0019829 Z");
+  }
+}
